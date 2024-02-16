@@ -1,0 +1,9 @@
+<root>
+	<attr name="Gunpowder" picname="items_powershot" price="800" info="Perform a powerful\n launch." value="2" />
+	<attr name="Helmet" picname="items_helmet" price="500" info="Offers protection in the \nevent of a serious crash, \npreventing instadeath." value="2" />
+	<attr name="Jet Fuel" picname="items_rocketx2" price="500" info="Use your Jetpack twice \nin a single flight." value="2" />
+	<attr name="Backup Glider" picname="items_glidex2" price="500" info="Use your Glider twice \nin a single flight." value="2" />
+	<attr name="Leviosa Potion" picname="itmes_lightpoint" price="500" info="Float through the air \nlike a feather." value="2" />
+	<attr name="2x Gold" picname="itmes_goldx2" price="500" info="Earn double gold for \nthe rest of this flight." value="2" />
+</root>
+

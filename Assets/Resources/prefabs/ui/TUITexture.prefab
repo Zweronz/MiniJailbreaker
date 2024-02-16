@@ -1,0 +1,1162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1253893217886307}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1253893217886307
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4370591240356240}
+  - 114: {fileID: 114222584572159896}
+  m_Layer: 0
+  m_Name: TUITexture
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4370591240356240
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1253893217886307}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -84.611465, y: 108.23236, z: 133.30164}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114222584572159896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1253893217886307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deb543aed52823d393fd44e0b57e25af, type: 3}
+  m_Name:
+  path: _Outer/UI/MainGame
+  hd: 1
+  atlasPath: UI/MainGame
+  atlasFile: MainGame
+  textureInfo:
+  - textureFile: UI/MainGame/MainGame
+    frames:
+    - frameName: game_title
+      size: {x: 485, y: 43}
+      uv: {x: 0.00390625, y: 0.99609375, z: 0.9511719, w: 0.9121094}
+    - frameName: UI_title
+      size: {x: 485, y: 43}
+      uv: {x: 0.00390625, y: 0.90625, z: 0.9511719, w: 0.8222656}
+    - frameName: bg
+      size: {x: 480, y: 303}
+      uv: {x: 0.00390625, y: 0.81640625, z: 0.94140625, w: 0.22460938}
+    - frameName: top
+      size: {x: 480, y: 46}
+      uv: {x: 0.00390625, y: 0.21875, z: 0.94140625, w: 0.12890625}
+    - frameName: itembg1_d
+      size: {x: 440, y: 49}
+      uv: {x: 0.00390625, y: 0.123046875, z: 0.86328125, w: 0.02734375}
+    - frameName: slider_bg
+      size: {x: 12, y: 257}
+      uv: {x: 0.95703125, y: 0.99609375, z: 0.98046875, w: 0.49414062}
+    - frameName: l_power_bg
+      size: {x: 21, y: 173}
+      uv: {x: 0.9472656, y: 0.48828125, z: 0.98828125, w: 0.15039062}
+    - frameName: game_pause_1
+      size: {x: 61, y: 27}
+      uv: {x: 0.8691406, y: 0.123046875, z: 0.98828125, w: 0.0703125}
+    - frameName: game_pause_2
+      size: {x: 61, y: 27}
+      uv: {x: 0.8691406, y: 0.064453125, z: 0.98828125, w: 0.01171875}
+  - textureFile: UI/MainGame/MainGame_1
+    frames:
+    - frameName: menu
+      size: {x: 480, y: 320}
+      uv: {x: 0.00390625, y: 0.99609375, z: 0.94140625, w: 0.37109375}
+    - frameName: pause_bg
+      size: {x: 463, y: 88}
+      uv: {x: 0.00390625, y: 0.36523438, z: 0.9082031, w: 0.19335938}
+    - frameName: itembg1
+      size: {x: 440, y: 49}
+      uv: {x: 0.00390625, y: 0.1875, z: 0.86328125, w: 0.091796875}
+    - frameName: v_power_front
+      size: {x: 213, y: 13}
+      uv: {x: 0.00390625, y: 0.0859375, z: 0.41992188, w: 0.060546875}
+    - frameName: v_power_bg
+      size: {x: 213, y: 13}
+      uv: {x: 0.42578125, y: 0.0859375, z: 0.8417969, w: 0.060546875}
+    - frameName: l_power_front
+      size: {x: 21, y: 173}
+      uv: {x: 0.9472656, y: 0.99609375, z: 0.98828125, w: 0.6582031}
+    - frameName: profile_title_label
+      size: {x: 123, y: 25}
+      uv: {x: 0.00390625, y: 0.0546875, z: 0.24414062, w: 0.005859375}
+    - frameName: gameover_tasklist_yellow
+      size: {x: 22, y: 118}
+      uv: {x: 0.9472656, y: 0.65234375, z: 0.9902344, w: 0.421875}
+    - frameName: task_button
+      size: {x: 35, y: 115}
+      uv: {x: 0.9140625, y: 0.36523438, z: 0.9824219, w: 0.140625}
+    - frameName: gameover_title_label
+      size: {x: 113, y: 25}
+      uv: {x: 0.25, y: 0.0546875, z: 0.47070312, w: 0.005859375}
+    - frameName: stash_title_label
+      size: {x: 113, y: 25}
+      uv: {x: 0.4765625, y: 0.0546875, z: 0.6972656, w: 0.005859375}
+    - frameName: game_bg_gold
+      size: {x: 84, y: 23}
+      uv: {x: 0.703125, y: 0.0546875, z: 0.8671875, w: 0.009765625}
+    - frameName: item_bomb1
+      size: {x: 55, y: 55}
+      uv: {x: 0.8730469, y: 0.13476562, z: 0.98046875, w: 0.02734375}
+    - frameName: v_power_point
+      size: {x: 19, y: 19}
+      uv: {x: 0.9472656, y: 0.41601562, z: 0.984375, w: 0.37890625}
+    - frameName: gold
+      size: {x: 14, y: 15}
+      uv: {x: 0.8691406, y: 0.1875, z: 0.8964844, w: 0.15820312}
+  - textureFile: UI/MainGame/MainGame_2
+    frames:
+    - frameName: profile_bg
+      size: {x: 475, y: 250}
+      uv: {x: 0.00390625, y: 0.99609375, z: 0.9316406, w: 0.5078125}
+    - frameName: itembg2
+      size: {x: 440, y: 49}
+      uv: {x: 0.00390625, y: 0.5019531, z: 0.86328125, w: 0.40625}
+    - frameName: itembg2_d
+      size: {x: 440, y: 49}
+      uv: {x: 0.00390625, y: 0.40039062, z: 0.86328125, w: 0.3046875}
+    - frameName: di2
+      size: {x: 268, y: 63}
+      uv: {x: 0.00390625, y: 0.29882812, z: 0.52734375, w: 0.17578125}
+    - frameName: task_list_bg
+      size: {x: 251, y: 50}
+      uv: {x: 0.00390625, y: 0.16992188, z: 0.49414062, w: 0.072265625}
+    - frameName: achievement_bg
+      size: {x: 250, y: 47}
+      uv: {x: 0.5, y: 0.16992188, z: 0.98828125, w: 0.078125}
+    - frameName: bule-button1.1
+      size: {x: 222, y: 49}
+      uv: {x: 0.5332031, y: 0.29882812, z: 0.9667969, w: 0.203125}
+    - frameName: pause_btn2_d
+      size: {x: 161, y: 33}
+      uv: {x: 0.5, y: 0.072265625, z: 0.8144531, w: 0.0078125}
+    - frameName: pause_btn1_d
+      size: {x: 153, y: 31}
+      uv: {x: 0.00390625, y: 0.06640625, z: 0.30273438, w: 0.005859375}
+    - frameName: slider_hold
+      size: {x: 12, y: 114}
+      uv: {x: 0.9375, y: 0.99609375, z: 0.9609375, w: 0.7734375}
+    - frameName: Bottom-1
+      size: {x: 90, y: 30}
+      uv: {x: 0.8203125, y: 0.072265625, z: 0.99609375, w: 0.013671875}
+    - frameName: gameover_menu
+      size: {x: 88, y: 32}
+      uv: {x: 0.30859375, y: 0.06640625, z: 0.48046875, w: 0.00390625}
+    - frameName: item_bomb2
+      size: {x: 55, y: 55}
+      uv: {x: 0.8691406, y: 0.5019531, z: 0.9765625, w: 0.39453125}
+    - frameName: trophy
+      size: {x: 45, y: 42}
+      uv: {x: 0.8691406, y: 0.38867188, z: 0.95703125, w: 0.30664062}
+    - frameName: Gold coin
+      size: {x: 30, y: 25}
+      uv: {x: 0.9375, y: 0.7675781, z: 0.99609375, w: 0.71875}
+    - frameName: jinbi
+      size: {x: 25, y: 25}
+      uv: {x: 0.9375, y: 0.7128906, z: 0.9863281, w: 0.6640625}
+  - textureFile: UI/MainGame/MainGame_3
+    frames:
+    - frameName: di-1
+      size: {x: 395, y: 240}
+      uv: {x: 0.00390625, y: 0.99609375, z: 0.7753906, w: 0.52734375}
+    - frameName: gameover_bg
+      size: {x: 382, y: 240}
+      uv: {x: 0.00390625, y: 0.5214844, z: 0.75, w: 0.052734375}
+    - frameName: anniu1.1
+      size: {x: 50, y: 125}
+      uv: {x: 0.78125, y: 0.99609375, z: 0.87890625, w: 0.7519531}
+    - frameName: anniu1
+      size: {x: 50, y: 125}
+      uv: {x: 0.8847656, y: 0.99609375, z: 0.9824219, w: 0.7519531}
+    - frameName: Bottom3
+      size: {x: 100, y: 30}
+      uv: {x: 0.78125, y: 0.74609375, z: 0.9765625, w: 0.6875}
+    - frameName: game_item_push_add
+      size: {x: 95, y: 95}
+      uv: {x: 0.78125, y: 0.6816406, z: 0.9667969, w: 0.49609375}
+    - frameName: gameover_retry
+      size: {x: 92, y: 38}
+      uv: {x: 0.7558594, y: 0.49023438, z: 0.9355469, w: 0.41601562}
+    - frameName: Get_more2
+      size: {x: 87, y: 31}
+      uv: {x: 0.7558594, y: 0.41015625, z: 0.92578125, w: 0.34960938}
+    - frameName: Get_more1
+      size: {x: 87, y: 31}
+      uv: {x: 0.7558594, y: 0.34375, z: 0.92578125, w: 0.28320312}
+    - frameName: zi-shop
+      size: {x: 80, y: 23}
+      uv: {x: 0.7558594, y: 0.27734375, z: 0.9121094, w: 0.23242188}
+    - frameName: yellow-button1
+      size: {x: 80, y: 25}
+      uv: {x: 0.7558594, y: 0.2265625, z: 0.9121094, w: 0.17773438}
+    - frameName: yellow-button1.1
+      size: {x: 80, y: 25}
+      uv: {x: 0.7558594, y: 0.171875, z: 0.9121094, w: 0.123046875}
+    - frameName: onoff_on
+      size: {x: 80, y: 25}
+      uv: {x: 0.7558594, y: 0.1171875, z: 0.9121094, w: 0.068359375}
+    - frameName: onoff_off
+      size: {x: 80, y: 25}
+      uv: {x: 0.7558594, y: 0.0625, z: 0.9121094, w: 0.013671875}
+    - frameName: item_trampoline_1
+      size: {x: 38, y: 38}
+      uv: {x: 0.91796875, y: 0.27734375, z: 0.9921875, w: 0.203125}
+    - frameName: game_btn_pause
+      size: {x: 38, y: 32}
+      uv: {x: 0.91796875, y: 0.19726562, z: 0.9921875, w: 0.13476562}
+    - frameName: pop_dialog_close_d
+      size: {x: 36, y: 35}
+      uv: {x: 0.91796875, y: 0.12890625, z: 0.98828125, w: 0.060546875}
+  - textureFile: UI/MainGame/MainGame_4
+    frames:
+    - frameName: pop_dialog_bg
+      size: {x: 381, y: 209}
+      uv: {x: 0.00390625, y: 0.99609375, z: 0.7480469, w: 0.5878906}
+    - frameName: task_bg
+      size: {x: 286, y: 175}
+      uv: {x: 0.00390625, y: 0.58203125, z: 0.5625, w: 0.24023438}
+    - frameName: bule-button1
+      size: {x: 222, y: 49}
+      uv: {x: 0.00390625, y: 0.234375, z: 0.4375, w: 0.13867188}
+    - frameName: accomplishment
+      size: {x: 205, y: 36}
+      uv: {x: 0.5683594, y: 0.58203125, z: 0.96875, w: 0.51171875}
+    - frameName: equip_rocke_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.5683594, y: 0.5058594, z: 0.9355469, w: 0.13867188}
+    - frameName: playNow
+      size: {x: 173, y: 43}
+      uv: {x: 0.00390625, y: 0.1328125, z: 0.34179688, w: 0.048828125}
+    - frameName: options
+      size: {x: 173, y: 43}
+      uv: {x: 0.34765625, y: 0.1328125, z: 0.6855469, w: 0.048828125}
+    - frameName: pop_dialog_btn_d
+      size: {x: 153, y: 36}
+      uv: {x: 0.69140625, y: 0.1328125, z: 0.9902344, w: 0.0625}
+    - frameName: dialogcancel.1
+      size: {x: 80, y: 25}
+      uv: {x: 0.75390625, y: 0.99609375, z: 0.91015625, w: 0.9472656}
+    - frameName: bule-Bottom2
+      size: {x: 80, y: 80}
+      uv: {x: 0.75390625, y: 0.94140625, z: 0.91015625, w: 0.78515625}
+    - frameName: bule-Bottom2.1
+      size: {x: 80, y: 80}
+      uv: {x: 0.75390625, y: 0.7792969, z: 0.91015625, w: 0.6230469}
+    - frameName: dialogcancel
+      size: {x: 80, y: 25}
+      uv: {x: 0.69140625, y: 0.056640625, z: 0.84765625, w: 0.0078125}
+    - frameName: pause_label_pause
+      size: {x: 70, y: 25}
+      uv: {x: 0.8535156, y: 0.056640625, z: 0.9902344, w: 0.0078125}
+    - frameName: trophy light
+      size: {x: 45, y: 42}
+      uv: {x: 0.44335938, y: 0.234375, z: 0.53125, w: 0.15234375}
+    - frameName: pop_dialog_close
+      size: {x: 36, y: 35}
+      uv: {x: 0.9160156, y: 0.99609375, z: 0.9863281, w: 0.9277344}
+  - textureFile: UI/MainGame/MainGame_5
+    frames:
+    - frameName: di1
+      size: {x: 282, y: 180}
+      uv: {x: 0.00390625, y: 0.99609375, z: 0.5546875, w: 0.64453125}
+    - frameName: Bottom4
+      size: {x: 280, y: 230}
+      uv: {x: 0.00390625, y: 0.6386719, z: 0.55078125, w: 0.18945312}
+    - frameName: item_sheet_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.5605469, y: 0.99609375, z: 0.9277344, w: 0.62890625}
+    - frameName: equip_rocket4_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.5566406, y: 0.6230469, z: 0.9238281, w: 0.25585938}
+    - frameName: theStash
+      size: {x: 173, y: 43}
+      uv: {x: 0.5566406, y: 0.25, z: 0.89453125, w: 0.16601562}
+    - frameName: light-yellow-bottom
+      size: {x: 170, y: 43}
+      uv: {x: 0.00390625, y: 0.18359375, z: 0.3359375, w: 0.099609375}
+    - frameName: yellow-bottom
+      size: {x: 170, y: 43}
+      uv: {x: 0.34179688, y: 0.16015625, z: 0.6738281, w: 0.076171875}
+    - frameName: pause_btn2
+      size: {x: 161, y: 33}
+      uv: {x: 0.6796875, y: 0.16015625, z: 0.9941406, w: 0.095703125}
+    - frameName: green-button1.1
+      size: {x: 160, y: 40}
+      uv: {x: 0.00390625, y: 0.09375, z: 0.31640625, w: 0.015625}
+    - frameName: green-button1
+      size: {x: 160, y: 40}
+      uv: {x: 0.6796875, y: 0.08984375, z: 0.9921875, w: 0.01171875}
+    - frameName: pause_btn1
+      size: {x: 153, y: 31}
+      uv: {x: 0.32226562, y: 0.0703125, z: 0.62109375, w: 0.009765625}
+    - frameName: bule-Bottom3
+      size: {x: 43, y: 33}
+      uv: {x: 0.9003906, y: 0.25, z: 0.984375, w: 0.18554688}
+  - textureFile: UI/MainGame/MainGame_6
+    frames:
+    - frameName: equip_rocket1_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.00390625, y: 0.99609375, z: 0.37109375, w: 0.62890625}
+    - frameName: equip_rocket2_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.37695312, y: 0.99609375, z: 0.7441406, w: 0.62890625}
+    - frameName: equip_rocket5_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.00390625, y: 0.6230469, z: 0.37109375, w: 0.25585938}
+    - frameName: equip_glide5_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.37695312, y: 0.6230469, z: 0.7441406, w: 0.25585938}
+    - frameName: stash_shop_btn
+      size: {x: 160, y: 74}
+      uv: {x: 0.00390625, y: 0.25, z: 0.31640625, w: 0.10546875}
+    - frameName: stash_shop_btn_d
+      size: {x: 160, y: 74}
+      uv: {x: 0.32226562, y: 0.25, z: 0.6347656, w: 0.10546875}
+    - frameName: pop_dialog_btn
+      size: {x: 153, y: 36}
+      uv: {x: 0.640625, y: 0.25, z: 0.9394531, w: 0.1796875}
+    - frameName: bule-Bottom1
+      size: {x: 153, y: 38}
+      uv: {x: 0.640625, y: 0.17382812, z: 0.9394531, w: 0.099609375}
+    - frameName: red-button1
+      size: {x: 150, y: 40}
+      uv: {x: 0.00390625, y: 0.099609375, z: 0.296875, w: 0.021484375}
+    - frameName: red-button1.1
+      size: {x: 150, y: 40}
+      uv: {x: 0.30273438, y: 0.099609375, z: 0.5957031, w: 0.021484375}
+    - frameName: pause_btn3
+      size: {x: 140, y: 30}
+      uv: {x: 0.6015625, y: 0.09375, z: 0.875, w: 0.03515625}
+    - frameName: gameover_thestash
+      size: {x: 125, y: 37}
+      uv: {x: 0.75, y: 0.99609375, z: 0.9941406, w: 0.9238281}
+    - frameName: dialogok
+      size: {x: 80, y: 25}
+      uv: {x: 0.75, y: 0.91796875, z: 0.90625, w: 0.8691406}
+    - frameName: 0.99
+      size: {x: 80, y: 23}
+      uv: {x: 0.75, y: 0.86328125, z: 0.90625, w: 0.8183594}
+    - frameName: dialogok.1
+      size: {x: 80, y: 25}
+      uv: {x: 0.75, y: 0.8125, z: 0.90625, w: 0.7636719}
+    - frameName: 6.99
+      size: {x: 80, y: 23}
+      uv: {x: 0.75, y: 0.7578125, z: 0.90625, w: 0.7128906}
+    - frameName: 49.99
+      size: {x: 80, y: 23}
+      uv: {x: 0.75, y: 0.70703125, z: 0.90625, w: 0.6621094}
+    - frameName: 2.99
+      size: {x: 80, y: 23}
+      uv: {x: 0.75, y: 0.65625, z: 0.90625, w: 0.6113281}
+    - frameName: 19.99
+      size: {x: 80, y: 23}
+      uv: {x: 0.75, y: 0.60546875, z: 0.90625, w: 0.5605469}
+    - frameName: 4.99
+      size: {x: 80, y: 23}
+      uv: {x: 0.75, y: 0.5546875, z: 0.90625, w: 0.5097656}
+    - frameName: 99.99
+      size: {x: 80, y: 23}
+      uv: {x: 0.75, y: 0.50390625, z: 0.90625, w: 0.45898438}
+    - frameName: 9.99
+      size: {x: 80, y: 23}
+      uv: {x: 0.75, y: 0.453125, z: 0.90625, w: 0.40820312}
+    - frameName: di3
+      size: {x: 79, y: 25}
+      uv: {x: 0.75, y: 0.40234375, z: 0.9042969, w: 0.35351562}
+    - frameName: bule-Bottom3.1
+      size: {x: 43, y: 33}
+      uv: {x: 0.9121094, y: 0.91796875, z: 0.99609375, w: 0.8535156}
+    - frameName: ranking
+      size: {x: 42, y: 30}
+      uv: {x: 0.9121094, y: 0.84765625, z: 0.9941406, w: 0.7890625}
+    - frameName: ranking light
+      size: {x: 42, y: 30}
+      uv: {x: 0.9121094, y: 0.7832031, z: 0.9941406, w: 0.7246094}
+  - textureFile: UI/MainGame/MainGame_7
+    frames:
+    - frameName: item_trampoline_1_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.00390625, y: 0.99609375, z: 0.37109375, w: 0.62890625}
+    - frameName: item_fireballoon_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.37695312, y: 0.99609375, z: 0.7441406, w: 0.62890625}
+    - frameName: item_bomb1_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.00390625, y: 0.6230469, z: 0.37109375, w: 0.25585938}
+    - frameName: item_wagon_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.37695312, y: 0.6230469, z: 0.7441406, w: 0.25585938}
+    - frameName: stash_profile_btn
+      size: {x: 150, y: 64}
+      uv: {x: 0.00390625, y: 0.25, z: 0.296875, w: 0.125}
+    - frameName: stash_profile_btn_d
+      size: {x: 150, y: 64}
+      uv: {x: 0.30273438, y: 0.25, z: 0.5957031, w: 0.125}
+    - frameName: pause_btn3_d
+      size: {x: 140, y: 30}
+      uv: {x: 0.6015625, y: 0.25, z: 0.875, w: 0.19140625}
+    - frameName: icon_gold
+      size: {x: 79, y: 60}
+      uv: {x: 0.75, y: 0.99609375, z: 0.9042969, w: 0.87890625}
+    - frameName: equip_rocket2_a
+      size: {x: 75, y: 75}
+      uv: {x: 0.75, y: 0.8730469, z: 0.8964844, w: 0.7265625}
+    - frameName: equip_rocket1_a
+      size: {x: 75, y: 75}
+      uv: {x: 0.75, y: 0.7207031, z: 0.8964844, w: 0.57421875}
+    - frameName: equip_rocket4_a
+      size: {x: 75, y: 75}
+      uv: {x: 0.75, y: 0.5683594, z: 0.8964844, w: 0.421875}
+    - frameName: equip_rocket3_a
+      size: {x: 75, y: 75}
+      uv: {x: 0.75, y: 0.41601562, z: 0.8964844, w: 0.26953125}
+    - frameName: equip_glide5_a
+      size: {x: 75, y: 75}
+      uv: {x: 0.6015625, y: 0.18554688, z: 0.7480469, w: 0.0390625}
+    - frameName: equip_glide1_a
+      size: {x: 75, y: 75}
+      uv: {x: 0.75390625, y: 0.18554688, z: 0.9003906, w: 0.0390625}
+    - frameName: equip_glide1
+      size: {x: 55, y: 55}
+      uv: {x: 0.00390625, y: 0.119140625, z: 0.111328125, w: 0.01171875}
+    - frameName: item_airliner
+      size: {x: 55, y: 55}
+      uv: {x: 0.1171875, y: 0.119140625, z: 0.22460938, w: 0.01171875}
+    - frameName: item_bed
+      size: {x: 55, y: 55}
+      uv: {x: 0.23046875, y: 0.119140625, z: 0.33789062, w: 0.01171875}
+    - frameName: equip_dangong1
+      size: {x: 55, y: 55}
+      uv: {x: 0.34375, y: 0.119140625, z: 0.45117188, w: 0.01171875}
+    - frameName: item_ufo
+      size: {x: 55, y: 55}
+      uv: {x: 0.45703125, y: 0.119140625, z: 0.5644531, w: 0.01171875}
+  - textureFile: UI/MainGame/MainGame_8
+    frames:
+    - frameName: item_landmine_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.00390625, y: 0.99609375, z: 0.37109375, w: 0.62890625}
+    - frameName: item_gold_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.37695312, y: 0.99609375, z: 0.7441406, w: 0.62890625}
+    - frameName: item_missile_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.00390625, y: 0.6230469, z: 0.37109375, w: 0.25585938}
+    - frameName: item_trampoline_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.37695312, y: 0.6230469, z: 0.7441406, w: 0.25585938}
+    - frameName: jinbi8
+      size: {x: 130, y: 120}
+      uv: {x: 0.00390625, y: 0.25, z: 0.2578125, w: 0.015625}
+    - frameName: jinbi7
+      size: {x: 130, y: 120}
+      uv: {x: 0.26367188, y: 0.25, z: 0.5175781, w: 0.015625}
+    - frameName: jinbi5
+      size: {x: 130, y: 120}
+      uv: {x: 0.5234375, y: 0.25, z: 0.77734375, w: 0.015625}
+    - frameName: Bottom5
+      size: {x: 75, y: 75}
+      uv: {x: 0.75, y: 0.99609375, z: 0.8964844, w: 0.8496094}
+    - frameName: equip_glide4_a
+      size: {x: 75, y: 75}
+      uv: {x: 0.75, y: 0.84375, z: 0.8964844, w: 0.6972656}
+    - frameName: equip_glide3_a
+      size: {x: 75, y: 75}
+      uv: {x: 0.75, y: 0.69140625, z: 0.8964844, w: 0.5449219}
+    - frameName: equip_rocket5_a
+      size: {x: 75, y: 75}
+      uv: {x: 0.75, y: 0.5390625, z: 0.8964844, w: 0.39257812}
+    - frameName: item_sheet_a
+      size: {x: 75, y: 75}
+      uv: {x: 0.7832031, y: 0.38671875, z: 0.9296875, w: 0.24023438}
+    - frameName: game_item_bg
+      size: {x: 72, y: 72}
+      uv: {x: 0.7832031, y: 0.234375, z: 0.9238281, w: 0.09375}
+  - textureFile: UI/MainGame/MainGame_9
+    frames:
+    - frameName: item_ufo_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.00390625, y: 0.99609375, z: 0.37109375, w: 0.62890625}
+    - frameName: item_bed_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.37695312, y: 0.99609375, z: 0.7441406, w: 0.62890625}
+    - frameName: item_airliner_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.00390625, y: 0.6230469, z: 0.37109375, w: 0.25585938}
+    - frameName: equip_glide4_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.37695312, y: 0.6230469, z: 0.7441406, w: 0.25585938}
+    - frameName: jinbi2
+      size: {x: 130, y: 120}
+      uv: {x: 0.00390625, y: 0.25, z: 0.2578125, w: 0.015625}
+    - frameName: jinbi1
+      size: {x: 130, y: 120}
+      uv: {x: 0.26367188, y: 0.25, z: 0.5175781, w: 0.015625}
+    - frameName: jinbi6
+      size: {x: 130, y: 120}
+      uv: {x: 0.5234375, y: 0.25, z: 0.77734375, w: 0.015625}
+    - frameName: game_item_bg_h
+      size: {x: 72, y: 72}
+      uv: {x: 0.75, y: 0.99609375, z: 0.890625, w: 0.85546875}
+    - frameName: item_sheet
+      size: {x: 55, y: 55}
+      uv: {x: 0.75, y: 0.8496094, z: 0.8574219, w: 0.7421875}
+    - frameName: item_trampoline
+      size: {x: 55, y: 55}
+      uv: {x: 0.86328125, y: 0.8496094, z: 0.9707031, w: 0.7421875}
+    - frameName: item_landmine
+      size: {x: 55, y: 55}
+      uv: {x: 0.75, y: 0.7363281, z: 0.8574219, w: 0.62890625}
+    - frameName: item_fireballoon
+      size: {x: 55, y: 55}
+      uv: {x: 0.86328125, y: 0.7363281, z: 0.9707031, w: 0.62890625}
+    - frameName: item_gold
+      size: {x: 55, y: 55}
+      uv: {x: 0.75, y: 0.6230469, z: 0.8574219, w: 0.515625}
+    - frameName: item_wagon
+      size: {x: 55, y: 55}
+      uv: {x: 0.86328125, y: 0.6230469, z: 0.9707031, w: 0.515625}
+    - frameName: equip_glide3
+      size: {x: 55, y: 55}
+      uv: {x: 0.75, y: 0.5097656, z: 0.8574219, w: 0.40234375}
+    - frameName: equip_rocket2
+      size: {x: 55, y: 55}
+      uv: {x: 0.86328125, y: 0.5097656, z: 0.9707031, w: 0.40234375}
+    - frameName: equip_rocket1
+      size: {x: 55, y: 55}
+      uv: {x: 0.75, y: 0.39648438, z: 0.8574219, w: 0.2890625}
+    - frameName: equip_glide5
+      size: {x: 55, y: 55}
+      uv: {x: 0.86328125, y: 0.39648438, z: 0.9707031, w: 0.2890625}
+    - frameName: equip_rocket3
+      size: {x: 55, y: 55}
+      uv: {x: 0.7832031, y: 0.28320312, z: 0.890625, w: 0.17578125}
+    - frameName: equip_rocket5
+      size: {x: 55, y: 55}
+      uv: {x: 0.7832031, y: 0.16992188, z: 0.890625, w: 0.0625}
+    - frameName: guanbi
+      size: {x: 50, y: 50}
+      uv: {x: 0.8964844, y: 0.99609375, z: 0.9941406, w: 0.8984375}
+    - frameName: guanbi1
+      size: {x: 50, y: 50}
+      uv: {x: 0.8964844, y: 0.28320312, z: 0.9941406, w: 0.18554688}
+  - textureFile: UI/MainGame/MainGame_10
+    frames:
+    - frameName: equip_glide1_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.00390625, y: 0.99609375, z: 0.37109375, w: 0.62890625}
+    - frameName: equip_dangong1_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.37695312, y: 0.99609375, z: 0.7441406, w: 0.62890625}
+    - frameName: equip_glide3_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.00390625, y: 0.6230469, z: 0.37109375, w: 0.25585938}
+    - frameName: thestash_upgrades
+      size: {x: 168, y: 155}
+      uv: {x: 0.37695312, y: 0.6230469, z: 0.7050781, w: 0.3203125}
+    - frameName: thestash_avatar
+      size: {x: 163, y: 151}
+      uv: {x: 0.37695312, y: 0.31445312, z: 0.6953125, w: 0.01953125}
+    - frameName: jinbi3
+      size: {x: 130, y: 120}
+      uv: {x: 0.7109375, y: 0.6230469, z: 0.96484375, w: 0.38867188}
+    - frameName: jinbi4
+      size: {x: 130, y: 120}
+      uv: {x: 0.7109375, y: 0.3828125, z: 0.96484375, w: 0.1484375}
+    - frameName: equip_rocket4
+      size: {x: 55, y: 55}
+      uv: {x: 0.75, y: 0.99609375, z: 0.8574219, w: 0.8886719}
+    - frameName: equip_glide4
+      size: {x: 55, y: 55}
+      uv: {x: 0.86328125, y: 0.99609375, z: 0.9707031, w: 0.8886719}
+  - textureFile: UI/MainGame/MainGame_11
+    frames:
+    - frameName: thestash_items
+      size: {x: 160, y: 150}
+      uv: {x: 0.00390625, y: 0.9921875, z: 0.31640625, w: 0.40625}
+    - frameName: dikuang
+      size: {x: 128, y: 128}
+      uv: {x: 0.32226562, y: 0.9921875, z: 0.5722656, w: 0.4921875}
+    - frameName: dikuang2
+      size: {x: 128, y: 128}
+      uv: {x: 0.578125, y: 0.9921875, z: 0.828125, w: 0.4921875}
+  textureInfoHD:
+  - textureFile: UI/MainGame/MainGame@2x
+    frames:
+    - frameName: game_title
+      size: {x: 485, y: 43}
+      uv: {x: 0.001953125, y: 0.9980469, z: 0.94921875, w: 0.9140625}
+    - frameName: UI_title
+      size: {x: 485, y: 43}
+      uv: {x: 0.001953125, y: 0.9111328, z: 0.94921875, w: 0.82714844}
+    - frameName: bg
+      size: {x: 480, y: 303}
+      uv: {x: 0.001953125, y: 0.82421875, z: 0.9394531, w: 0.23242188}
+    - frameName: top
+      size: {x: 480, y: 46}
+      uv: {x: 0.001953125, y: 0.22949219, z: 0.9394531, w: 0.13964844}
+    - frameName: itembg1_d
+      size: {x: 440, y: 49}
+      uv: {x: 0.001953125, y: 0.13671875, z: 0.8613281, w: 0.041015625}
+    - frameName: slider_bg
+      size: {x: 12, y: 257}
+      uv: {x: 0.95214844, y: 0.9980469, z: 0.97558594, w: 0.49609375}
+    - frameName: v_power_front
+      size: {x: 213, y: 13}
+      uv: {x: 0.001953125, y: 0.038085938, z: 0.41796875, w: 0.0126953125}
+    - frameName: v_power_bg
+      size: {x: 213, y: 13}
+      uv: {x: 0.42089844, y: 0.038085938, z: 0.83691406, w: 0.0126953125}
+    - frameName: l_power_bg
+      size: {x: 21, y: 173}
+      uv: {x: 0.9423828, y: 0.49316406, z: 0.98339844, w: 0.15527344}
+    - frameName: game_pause_1
+      size: {x: 61, y: 27}
+      uv: {x: 0.8642578, y: 0.13671875, z: 0.98339844, w: 0.083984375}
+    - frameName: game_pause_2
+      size: {x: 61, y: 27}
+      uv: {x: 0.8642578, y: 0.08105469, z: 0.98339844, w: 0.028320312}
+  - textureFile: UI/MainGame/MainGame_1@2x
+    frames:
+    - frameName: menu
+      size: {x: 480, y: 320}
+      uv: {x: 0.001953125, y: 0.9980469, z: 0.9394531, w: 0.37304688}
+    - frameName: pause_bg
+      size: {x: 463, y: 88}
+      uv: {x: 0.001953125, y: 0.3701172, z: 0.90625, w: 0.19824219}
+    - frameName: itembg1
+      size: {x: 440, y: 49}
+      uv: {x: 0.001953125, y: 0.1953125, z: 0.8613281, w: 0.099609375}
+    - frameName: achievement_bg
+      size: {x: 250, y: 47}
+      uv: {x: 0.001953125, y: 0.09667969, z: 0.49023438, w: 0.0048828125}
+    - frameName: accomplishment
+      size: {x: 205, y: 36}
+      uv: {x: 0.49316406, y: 0.09667969, z: 0.8935547, w: 0.026367188}
+    - frameName: l_power_front
+      size: {x: 21, y: 173}
+      uv: {x: 0.9423828, y: 0.9980469, z: 0.98339844, w: 0.66015625}
+    - frameName: gameover_tasklist_yellow
+      size: {x: 22, y: 118}
+      uv: {x: 0.9423828, y: 0.65722656, z: 0.98535156, w: 0.4267578}
+    - frameName: task_button
+      size: {x: 35, y: 115}
+      uv: {x: 0.9091797, y: 0.3701172, z: 0.97753906, w: 0.14550781}
+    - frameName: guanbi
+      size: {x: 50, y: 50}
+      uv: {x: 0.8964844, y: 0.14257812, z: 0.9941406, w: 0.044921875}
+    - frameName: jinbi
+      size: {x: 25, y: 25}
+      uv: {x: 0.9423828, y: 0.42382812, z: 0.99121094, w: 0.375}
+    - frameName: v_power_point
+      size: {x: 19, y: 19}
+      uv: {x: 0.8642578, y: 0.1953125, z: 0.9013672, w: 0.15820312}
+    - frameName: gold
+      size: {x: 14, y: 15}
+      uv: {x: 0.8642578, y: 0.15527344, z: 0.89160156, w: 0.12597656}
+  - textureFile: UI/MainGame/MainGame_2@2x
+    frames:
+    - frameName: profile_bg
+      size: {x: 475, y: 250}
+      uv: {x: 0.001953125, y: 0.9980469, z: 0.9296875, w: 0.5097656}
+    - frameName: itembg2
+      size: {x: 440, y: 49}
+      uv: {x: 0.001953125, y: 0.50683594, z: 0.8613281, w: 0.4111328}
+    - frameName: itembg2_d
+      size: {x: 440, y: 49}
+      uv: {x: 0.001953125, y: 0.40820312, z: 0.8613281, w: 0.3125}
+    - frameName: di2
+      size: {x: 268, y: 63}
+      uv: {x: 0.001953125, y: 0.3095703, z: 0.5253906, w: 0.18652344}
+    - frameName: task_list_bg
+      size: {x: 251, y: 50}
+      uv: {x: 0.001953125, y: 0.18359375, z: 0.4921875, w: 0.0859375}
+    - frameName: bule-button1.1
+      size: {x: 222, y: 49}
+      uv: {x: 0.5283203, y: 0.3095703, z: 0.96191406, w: 0.21386719}
+    - frameName: bule-button1
+      size: {x: 222, y: 49}
+      uv: {x: 0.5283203, y: 0.2109375, z: 0.96191406, w: 0.115234375}
+    - frameName: playNow
+      size: {x: 173, y: 43}
+      uv: {x: 0.4951172, y: 0.11230469, z: 0.8330078, w: 0.028320312}
+    - frameName: pause_btn2_d
+      size: {x: 161, y: 33}
+      uv: {x: 0.001953125, y: 0.08300781, z: 0.31640625, w: 0.018554688}
+    - frameName: slider_hold
+      size: {x: 12, y: 114}
+      uv: {x: 0.9326172, y: 0.9980469, z: 0.9560547, w: 0.7753906}
+    - frameName: gameover_menu
+      size: {x: 88, y: 32}
+      uv: {x: 0.31933594, y: 0.08300781, z: 0.49121094, w: 0.020507812}
+    - frameName: zi-shop
+      size: {x: 80, y: 23}
+      uv: {x: 0.8359375, y: 0.11230469, z: 0.9921875, w: 0.06738281}
+    - frameName: yellow-button1
+      size: {x: 80, y: 25}
+      uv: {x: 0.8359375, y: 0.064453125, z: 0.9921875, w: 0.015625}
+    - frameName: item_bomb1
+      size: {x: 55, y: 55}
+      uv: {x: 0.8642578, y: 0.50683594, z: 0.9716797, w: 0.39941406}
+    - frameName: trophy
+      size: {x: 45, y: 42}
+      uv: {x: 0.8642578, y: 0.39648438, z: 0.95214844, w: 0.31445312}
+    - frameName: Gold coin
+      size: {x: 30, y: 25}
+      uv: {x: 0.9326172, y: 0.77246094, z: 0.99121094, w: 0.7236328}
+  - textureFile: UI/MainGame/MainGame_3@2x
+    frames:
+    - frameName: di-1
+      size: {x: 395, y: 240}
+      uv: {x: 0.001953125, y: 0.9980469, z: 0.7734375, w: 0.5292969}
+    - frameName: gameover_bg
+      size: {x: 382, y: 240}
+      uv: {x: 0.001953125, y: 0.5263672, z: 0.7480469, w: 0.057617188}
+    - frameName: gameover_thestash
+      size: {x: 125, y: 37}
+      uv: {x: 0.75097656, y: 0.5263672, z: 0.9951172, w: 0.45410156}
+    - frameName: anniu1.1
+      size: {x: 50, y: 125}
+      uv: {x: 0.7763672, y: 0.9980469, z: 0.87402344, w: 0.75390625}
+    - frameName: anniu1
+      size: {x: 50, y: 125}
+      uv: {x: 0.8769531, y: 0.9980469, z: 0.9746094, w: 0.75390625}
+    - frameName: profile_title_label
+      size: {x: 123, y: 25}
+      uv: {x: 0.75097656, y: 0.45117188, z: 0.99121094, w: 0.40234375}
+    - frameName: gameover_title_label
+      size: {x: 113, y: 25}
+      uv: {x: 0.7763672, y: 0.75097656, z: 0.9970703, w: 0.70214844}
+    - frameName: stash_title_label
+      size: {x: 113, y: 25}
+      uv: {x: 0.7763672, y: 0.69921875, z: 0.9970703, w: 0.6503906}
+    - frameName: Bottom3
+      size: {x: 100, y: 30}
+      uv: {x: 0.7763672, y: 0.64746094, z: 0.9716797, w: 0.5888672}
+    - frameName: game_item_push_add
+      size: {x: 95, y: 95}
+      uv: {x: 0.75097656, y: 0.39941406, z: 0.93652344, w: 0.21386719}
+    - frameName: gameover_retry
+      size: {x: 92, y: 38}
+      uv: {x: 0.75097656, y: 0.2109375, z: 0.93066406, w: 0.13671875}
+    - frameName: Bottom-1
+      size: {x: 90, y: 30}
+      uv: {x: 0.75097656, y: 0.13378906, z: 0.9267578, w: 0.07519531}
+    - frameName: Get_more2
+      size: {x: 87, y: 31}
+      uv: {x: 0.75097656, y: 0.072265625, z: 0.92089844, w: 0.01171875}
+    - frameName: game_bg_gold
+      size: {x: 84, y: 23}
+      uv: {x: 0.7763672, y: 0.5859375, z: 0.9404297, w: 0.5410156}
+    - frameName: yellow-button1.1
+      size: {x: 80, y: 25}
+      uv: {x: 0.001953125, y: 0.0546875, z: 0.15820312, w: 0.005859375}
+    - frameName: onoff_on
+      size: {x: 80, y: 25}
+      uv: {x: 0.16113281, y: 0.0546875, z: 0.3173828, w: 0.005859375}
+    - frameName: onoff_off
+      size: {x: 80, y: 25}
+      uv: {x: 0.3203125, y: 0.0546875, z: 0.4765625, w: 0.005859375}
+    - frameName: dialogcancel.1
+      size: {x: 80, y: 25}
+      uv: {x: 0.4794922, y: 0.0546875, z: 0.6357422, w: 0.005859375}
+    - frameName: game_btn_pause
+      size: {x: 38, y: 32}
+      uv: {x: 0.9238281, y: 0.072265625, z: 0.9980469, w: 0.009765625}
+  - textureFile: UI/MainGame/MainGame_4@2x
+    frames:
+    - frameName: pop_dialog_bg
+      size: {x: 381, y: 209}
+      uv: {x: 0.001953125, y: 0.9980469, z: 0.74609375, w: 0.58984375}
+    - frameName: task_bg
+      size: {x: 286, y: 175}
+      uv: {x: 0.001953125, y: 0.58691406, z: 0.5605469, w: 0.24511719}
+    - frameName: equip_rocke_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.56347656, y: 0.58691406, z: 0.93066406, w: 0.21972656}
+    - frameName: options
+      size: {x: 173, y: 43}
+      uv: {x: 0.001953125, y: 0.2421875, z: 0.33984375, w: 0.15820312}
+    - frameName: theStash
+      size: {x: 173, y: 43}
+      uv: {x: 0.34277344, y: 0.21679688, z: 0.68066406, w: 0.1328125}
+    - frameName: light-yellow-bottom
+      size: {x: 170, y: 43}
+      uv: {x: 0.001953125, y: 0.15527344, z: 0.33398438, w: 0.07128906}
+    - frameName: yellow-bottom
+      size: {x: 170, y: 43}
+      uv: {x: 0.33691406, y: 0.12988281, z: 0.6689453, w: 0.045898438}
+    - frameName: pause_btn2
+      size: {x: 161, y: 33}
+      uv: {x: 0.68359375, y: 0.21679688, z: 0.9980469, w: 0.15234375}
+    - frameName: stash_shop_btn
+      size: {x: 160, y: 74}
+      uv: {x: 0.68359375, y: 0.14941406, z: 0.99609375, w: 0.0048828125}
+    - frameName: pause_btn1_d
+      size: {x: 153, y: 31}
+      uv: {x: 0.001953125, y: 0.068359375, z: 0.30078125, w: 0.0078125}
+    - frameName: Get_more1
+      size: {x: 87, y: 31}
+      uv: {x: 0.74902344, y: 0.9980469, z: 0.9189453, w: 0.9375}
+    - frameName: bule-Bottom2
+      size: {x: 80, y: 80}
+      uv: {x: 0.74902344, y: 0.9345703, z: 0.90527344, w: 0.7783203}
+    - frameName: bule-Bottom2.1
+      size: {x: 80, y: 80}
+      uv: {x: 0.74902344, y: 0.7753906, z: 0.90527344, w: 0.6191406}
+    - frameName: trophy light
+      size: {x: 45, y: 42}
+      uv: {x: 0.9082031, y: 0.9345703, z: 0.99609375, w: 0.85253906}
+    - frameName: bule-Bottom3
+      size: {x: 43, y: 33}
+      uv: {x: 0.9082031, y: 0.8496094, z: 0.9921875, w: 0.78515625}
+    - frameName: bule-Bottom3.1
+      size: {x: 43, y: 33}
+      uv: {x: 0.9082031, y: 0.78222656, z: 0.9921875, w: 0.71777344}
+    - frameName: ranking
+      size: {x: 42, y: 30}
+      uv: {x: 0.9082031, y: 0.71484375, z: 0.9902344, w: 0.65625}
+    - frameName: ranking light
+      size: {x: 42, y: 30}
+      uv: {x: 0.9082031, y: 0.6533203, z: 0.9902344, w: 0.59472656}
+  - textureFile: UI/MainGame/MainGame_5@2x
+    frames:
+    - frameName: di1
+      size: {x: 282, y: 180}
+      uv: {x: 0.001953125, y: 0.9980469, z: 0.5527344, w: 0.6464844}
+    - frameName: Bottom4
+      size: {x: 280, y: 230}
+      uv: {x: 0.001953125, y: 0.6435547, z: 0.5488281, w: 0.19433594}
+    - frameName: item_sheet_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.55566406, y: 0.9980469, z: 0.92285156, w: 0.6308594}
+    - frameName: equip_rocket4_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.5517578, y: 0.6279297, z: 0.9189453, w: 0.2607422}
+    - frameName: stash_shop_btn_d
+      size: {x: 160, y: 74}
+      uv: {x: 0.5517578, y: 0.2578125, z: 0.8642578, w: 0.11328125}
+    - frameName: green-button1.1
+      size: {x: 160, y: 40}
+      uv: {x: 0.001953125, y: 0.19140625, z: 0.31445312, w: 0.11328125}
+    - frameName: green-button1
+      size: {x: 160, y: 40}
+      uv: {x: 0.001953125, y: 0.11035156, z: 0.31445312, w: 0.032226562}
+    - frameName: pop_dialog_btn_d
+      size: {x: 153, y: 36}
+      uv: {x: 0.3173828, y: 0.11035156, z: 0.61621094, w: 0.040039062}
+    - frameName: pop_dialog_btn
+      size: {x: 153, y: 36}
+      uv: {x: 0.6191406, y: 0.11035156, z: 0.91796875, w: 0.040039062}
+    - frameName: dialogcancel
+      size: {x: 80, y: 25}
+      uv: {x: 0.3173828, y: 0.19140625, z: 0.4736328, w: 0.14257812}
+    - frameName: item_bomb2
+      size: {x: 55, y: 55}
+      uv: {x: 0.8671875, y: 0.2578125, z: 0.9746094, w: 0.15039062}
+    - frameName: item_trampoline_1
+      size: {x: 38, y: 38}
+      uv: {x: 0.921875, y: 0.6279297, z: 0.99609375, w: 0.55371094}
+    - frameName: pop_dialog_close_d
+      size: {x: 36, y: 35}
+      uv: {x: 0.92578125, y: 0.9980469, z: 0.99609375, w: 0.9296875}
+    - frameName: pop_dialog_close
+      size: {x: 36, y: 35}
+      uv: {x: 0.92578125, y: 0.9267578, z: 0.99609375, w: 0.85839844}
+  - textureFile: UI/MainGame/MainGame_6@2x
+    frames:
+    - frameName: equip_rocket1_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.001953125, y: 0.9980469, z: 0.36914062, w: 0.6308594}
+    - frameName: equip_rocket2_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.3720703, y: 0.9980469, z: 0.7392578, w: 0.6308594}
+    - frameName: equip_rocket5_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.001953125, y: 0.6279297, z: 0.36914062, w: 0.2607422}
+    - frameName: equip_glide5_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.3720703, y: 0.6279297, z: 0.7392578, w: 0.2607422}
+    - frameName: pause_btn1
+      size: {x: 153, y: 31}
+      uv: {x: 0.001953125, y: 0.2578125, z: 0.30078125, w: 0.19726562}
+    - frameName: bule-Bottom1
+      size: {x: 153, y: 38}
+      uv: {x: 0.30371094, y: 0.2578125, z: 0.60253906, w: 0.18359375}
+    - frameName: red-button1
+      size: {x: 150, y: 40}
+      uv: {x: 0.60546875, y: 0.2578125, z: 0.8984375, w: 0.1796875}
+    - frameName: red-button1.1
+      size: {x: 150, y: 40}
+      uv: {x: 0.001953125, y: 0.19433594, z: 0.29492188, w: 0.11621094}
+    - frameName: stash_profile_btn
+      size: {x: 150, y: 64}
+      uv: {x: 0.29785156, y: 0.18066406, z: 0.5908203, w: 0.055664062}
+    - frameName: stash_profile_btn_d
+      size: {x: 150, y: 64}
+      uv: {x: 0.59375, y: 0.17675781, z: 0.88671875, w: 0.051757812}
+    - frameName: pause_btn3
+      size: {x: 140, y: 30}
+      uv: {x: 0.001953125, y: 0.11328125, z: 0.27539062, w: 0.0546875}
+    - frameName: jinbi8
+      size: {x: 130, y: 120}
+      uv: {x: 0.7421875, y: 0.9980469, z: 0.99609375, w: 0.7636719}
+    - frameName: jinbi7
+      size: {x: 130, y: 120}
+      uv: {x: 0.7421875, y: 0.7607422, z: 0.99609375, w: 0.5263672}
+    - frameName: jinbi5
+      size: {x: 130, y: 120}
+      uv: {x: 0.7421875, y: 0.5234375, z: 0.99609375, w: 0.2890625}
+    - frameName: dialogok
+      size: {x: 80, y: 25}
+      uv: {x: 0.2783203, y: 0.052734375, z: 0.4345703, w: 0.00390625}
+    - frameName: 0.99
+      size: {x: 80, y: 23}
+      uv: {x: 0.001953125, y: 0.051757812, z: 0.15820312, w: 0.0068359375}
+    - frameName: 6.99
+      size: {x: 80, y: 23}
+      uv: {x: 0.4375, y: 0.048828125, z: 0.59375, w: 0.00390625}
+    - frameName: 49.99
+      size: {x: 80, y: 23}
+      uv: {x: 0.5966797, y: 0.048828125, z: 0.7529297, w: 0.00390625}
+    - frameName: 2.99
+      size: {x: 80, y: 23}
+      uv: {x: 0.7558594, y: 0.048828125, z: 0.9121094, w: 0.00390625}
+    - frameName: equip_glide1
+      size: {x: 55, y: 55}
+      uv: {x: 0.88964844, y: 0.17675781, z: 0.9970703, w: 0.06933594}
+  - textureFile: UI/MainGame/MainGame_7@2x
+    frames:
+    - frameName: item_trampoline_1_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.001953125, y: 0.9980469, z: 0.36914062, w: 0.6308594}
+    - frameName: item_fireballoon_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.3720703, y: 0.9980469, z: 0.7392578, w: 0.6308594}
+    - frameName: item_bomb1_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.001953125, y: 0.6279297, z: 0.36914062, w: 0.2607422}
+    - frameName: item_wagon_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.3720703, y: 0.6279297, z: 0.7392578, w: 0.2607422}
+    - frameName: pause_btn3_d
+      size: {x: 140, y: 30}
+      uv: {x: 0.001953125, y: 0.2578125, z: 0.27539062, w: 0.19921875}
+    - frameName: jinbi2
+      size: {x: 130, y: 120}
+      uv: {x: 0.7421875, y: 0.9980469, z: 0.99609375, w: 0.7636719}
+    - frameName: jinbi1
+      size: {x: 130, y: 120}
+      uv: {x: 0.7421875, y: 0.7607422, z: 0.99609375, w: 0.5263672}
+    - frameName: jinbi6
+      size: {x: 130, y: 120}
+      uv: {x: 0.7421875, y: 0.5234375, z: 0.99609375, w: 0.2890625}
+    - frameName: jinbi3
+      size: {x: 130, y: 120}
+      uv: {x: 0.7421875, y: 0.2861328, z: 0.99609375, w: 0.051757812}
+    - frameName: jinbi4
+      size: {x: 130, y: 120}
+      uv: {x: 0.2783203, y: 0.2578125, z: 0.53222656, w: 0.0234375}
+    - frameName: dialogok.1
+      size: {x: 80, y: 25}
+      uv: {x: 0.53515625, y: 0.2578125, z: 0.69140625, w: 0.20898438}
+    - frameName: 19.99
+      size: {x: 80, y: 23}
+      uv: {x: 0.53515625, y: 0.20605469, z: 0.69140625, w: 0.16113281}
+    - frameName: 4.99
+      size: {x: 80, y: 23}
+      uv: {x: 0.001953125, y: 0.19628906, z: 0.15820312, w: 0.15136719}
+    - frameName: 99.99
+      size: {x: 80, y: 23}
+      uv: {x: 0.53515625, y: 0.15820312, z: 0.69140625, w: 0.11328125}
+    - frameName: 9.99
+      size: {x: 80, y: 23}
+      uv: {x: 0.001953125, y: 0.1484375, z: 0.15820312, w: 0.103515625}
+    - frameName: di3
+      size: {x: 79, y: 25}
+      uv: {x: 0.53515625, y: 0.11035156, z: 0.6894531, w: 0.061523438}
+    - frameName: pause_label_pause
+      size: {x: 70, y: 25}
+      uv: {x: 0.001953125, y: 0.10058594, z: 0.13867188, w: 0.051757812}
+    - frameName: item_airliner
+      size: {x: 55, y: 55}
+      uv: {x: 0.16113281, y: 0.19628906, z: 0.2685547, w: 0.08886719}
+  - textureFile: UI/MainGame/MainGame_8@2x
+    frames:
+    - frameName: item_landmine_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.001953125, y: 0.9980469, z: 0.36914062, w: 0.6308594}
+    - frameName: item_gold_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.3720703, y: 0.9980469, z: 0.7392578, w: 0.6308594}
+    - frameName: item_missile_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.001953125, y: 0.6279297, z: 0.36914062, w: 0.2607422}
+    - frameName: item_trampoline_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.3720703, y: 0.6279297, z: 0.7392578, w: 0.2607422}
+    - frameName: dikuang
+      size: {x: 128, y: 128}
+      uv: {x: 0.7421875, y: 0.9980469, z: 0.9921875, w: 0.7480469}
+    - frameName: dikuang2
+      size: {x: 128, y: 128}
+      uv: {x: 0.7421875, y: 0.7451172, z: 0.9921875, w: 0.4951172}
+    - frameName: icon_gold
+      size: {x: 79, y: 60}
+      uv: {x: 0.7421875, y: 0.4921875, z: 0.8964844, w: 0.375}
+    - frameName: equip_rocket2_a
+      size: {x: 75, y: 75}
+      uv: {x: 0.7421875, y: 0.3720703, z: 0.8886719, w: 0.22558594}
+    - frameName: equip_rocket1_a
+      size: {x: 75, y: 75}
+      uv: {x: 0.001953125, y: 0.2578125, z: 0.1484375, w: 0.111328125}
+    - frameName: equip_rocket4_a
+      size: {x: 75, y: 75}
+      uv: {x: 0.15136719, y: 0.2578125, z: 0.29785156, w: 0.111328125}
+    - frameName: equip_rocket3_a
+      size: {x: 75, y: 75}
+      uv: {x: 0.30078125, y: 0.2578125, z: 0.44726562, w: 0.111328125}
+    - frameName: equip_glide5_a
+      size: {x: 75, y: 75}
+      uv: {x: 0.4501953, y: 0.2578125, z: 0.5966797, w: 0.111328125}
+    - frameName: equip_glide1_a
+      size: {x: 75, y: 75}
+      uv: {x: 0.5996094, y: 0.22265625, z: 0.74609375, w: 0.076171875}
+    - frameName: Bottom5
+      size: {x: 75, y: 75}
+      uv: {x: 0.74902344, y: 0.22265625, z: 0.8955078, w: 0.076171875}
+    - frameName: guanbi1
+      size: {x: 50, y: 50}
+      uv: {x: 0.89941406, y: 0.4921875, z: 0.9970703, w: 0.39453125}
+  - textureFile: UI/MainGame/MainGame_9@2x
+    frames:
+    - frameName: item_ufo_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.001953125, y: 0.9980469, z: 0.36914062, w: 0.6308594}
+    - frameName: item_bed_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.3720703, y: 0.9980469, z: 0.7392578, w: 0.6308594}
+    - frameName: item_airliner_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.001953125, y: 0.6279297, z: 0.36914062, w: 0.2607422}
+    - frameName: equip_glide4_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.3720703, y: 0.6279297, z: 0.7392578, w: 0.2607422}
+    - frameName: equip_glide4_a
+      size: {x: 75, y: 75}
+      uv: {x: 0.7421875, y: 0.9980469, z: 0.8886719, w: 0.8515625}
+    - frameName: equip_glide3_a
+      size: {x: 75, y: 75}
+      uv: {x: 0.7421875, y: 0.8486328, z: 0.8886719, w: 0.70214844}
+    - frameName: equip_rocket5_a
+      size: {x: 75, y: 75}
+      uv: {x: 0.7421875, y: 0.69921875, z: 0.8886719, w: 0.5527344}
+    - frameName: item_sheet_a
+      size: {x: 75, y: 75}
+      uv: {x: 0.7421875, y: 0.5498047, z: 0.8886719, w: 0.4033203}
+    - frameName: game_item_bg
+      size: {x: 72, y: 72}
+      uv: {x: 0.7421875, y: 0.40039062, z: 0.8828125, w: 0.25976562}
+    - frameName: game_item_bg_h
+      size: {x: 72, y: 72}
+      uv: {x: 0.001953125, y: 0.2578125, z: 0.14257812, w: 0.1171875}
+    - frameName: item_bed
+      size: {x: 55, y: 55}
+      uv: {x: 0.8857422, y: 0.40039062, z: 0.99316406, w: 0.29296875}
+    - frameName: equip_dangong1
+      size: {x: 55, y: 55}
+      uv: {x: 0.8857422, y: 0.29003906, z: 0.99316406, w: 0.18261719}
+    - frameName: item_ufo
+      size: {x: 55, y: 55}
+      uv: {x: 0.14550781, y: 0.2578125, z: 0.2529297, w: 0.15039062}
+    - frameName: item_sheet
+      size: {x: 55, y: 55}
+      uv: {x: 0.25585938, y: 0.2578125, z: 0.36328125, w: 0.15039062}
+    - frameName: item_trampoline
+      size: {x: 55, y: 55}
+      uv: {x: 0.36621094, y: 0.2578125, z: 0.4736328, w: 0.15039062}
+    - frameName: item_landmine
+      size: {x: 55, y: 55}
+      uv: {x: 0.4765625, y: 0.2578125, z: 0.5839844, w: 0.15039062}
+    - frameName: item_fireballoon
+      size: {x: 55, y: 55}
+      uv: {x: 0.58691406, y: 0.2578125, z: 0.69433594, w: 0.15039062}
+    - frameName: item_gold
+      size: {x: 55, y: 55}
+      uv: {x: 0.6972656, y: 0.25683594, z: 0.8046875, w: 0.14941406}
+    - frameName: item_wagon
+      size: {x: 55, y: 55}
+      uv: {x: 0.8076172, y: 0.1796875, z: 0.91503906, w: 0.072265625}
+    - frameName: equip_glide3
+      size: {x: 55, y: 55}
+      uv: {x: 0.14550781, y: 0.14746094, z: 0.2529297, w: 0.040039062}
+    - frameName: equip_rocket2
+      size: {x: 55, y: 55}
+      uv: {x: 0.25585938, y: 0.14746094, z: 0.36328125, w: 0.040039062}
+    - frameName: equip_rocket1
+      size: {x: 55, y: 55}
+      uv: {x: 0.36621094, y: 0.14746094, z: 0.4736328, w: 0.040039062}
+    - frameName: equip_glide5
+      size: {x: 55, y: 55}
+      uv: {x: 0.4765625, y: 0.14746094, z: 0.5839844, w: 0.040039062}
+    - frameName: equip_rocket3
+      size: {x: 55, y: 55}
+      uv: {x: 0.58691406, y: 0.14746094, z: 0.69433594, w: 0.040039062}
+    - frameName: equip_rocket5
+      size: {x: 55, y: 55}
+      uv: {x: 0.6972656, y: 0.14648438, z: 0.8046875, w: 0.0390625}
+    - frameName: equip_rocket4
+      size: {x: 55, y: 55}
+      uv: {x: 0.001953125, y: 0.11425781, z: 0.109375, w: 0.0068359375}
+  - textureFile: UI/MainGame/MainGame_10@2x
+    frames:
+    - frameName: equip_glide1_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.001953125, y: 0.9980469, z: 0.36914062, w: 0.6308594}
+    - frameName: equip_dangong1_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.3720703, y: 0.9980469, z: 0.7392578, w: 0.6308594}
+    - frameName: equip_glide3_b
+      size: {x: 188, y: 188}
+      uv: {x: 0.001953125, y: 0.6279297, z: 0.36914062, w: 0.2607422}
+    - frameName: thestash_upgrades
+      size: {x: 168, y: 155}
+      uv: {x: 0.3720703, y: 0.6279297, z: 0.7001953, w: 0.3251953}
+    - frameName: thestash_avatar
+      size: {x: 163, y: 151}
+      uv: {x: 0.3720703, y: 0.32226562, z: 0.6904297, w: 0.02734375}
+    - frameName: equip_glide4
+      size: {x: 55, y: 55}
+      uv: {x: 0.7421875, y: 0.9980469, z: 0.8496094, w: 0.890625}
+  - textureFile: UI/MainGame/MainGame_11@2x
+    frames:
+    - frameName: thestash_items
+      size: {x: 160, y: 150}
+      uv: {x: 0.001953125, y: 0.99609375, z: 0.31445312, w: 0.41015625}
+  material: {fileID: 2100000, guid: db79a4ba24740e0478384101369cb5ce, type: 2}

@@ -1,0 +1,92 @@
+<!-- ITEM_TYPE
+    ITEM_NONE = 0,            //无
+    ITEM_GOLD = 1,            //金币
+    ITEM_GOLD_POWER = 2,     //金币倍率
+    ITEM_SHOCK_WAVE = 3,     //冲击波
+    ITEM_SHIELD = 4,         //防护罩
+    ITEM_RESURRECTION = 5,   //复活
+    ITEM_START_FROM_KM = 6,  //从1000米处开始
+    ITEM_GHOST = 7,          //幽灵
+    ITEM_ENERGY = 8,         //能量
+    ITEM_MAGNET = 9,         //磁铁
+    ITEM_EXCHANGE = 10,       //方向
+    ITEM_TREASUREBOX = 11,       //宝箱
+  -->
+
+<!-- BUFFER_TYPE
+    BUFFER_NONE = 0,
+    BUFFER_SPEED = 1,         //速度    百分比
+    BUFFER_SHIELD = 2,        //防护    防护次数
+    BUFFER_MAGENT = 3,        //磁铁    磁铁吸引米数
+    BUFFER_INVINCIBILITY = 4, //无敌    null
+    BUFFER_LIGHT_WAY = 5
+    BUFFER_TRANSPARENT = 6,   //透明化  null
+    BUFFER_SHOCK_WAVE = 7,    //冲击波  距离
+    BUFFER_WORMHOLE = 8,      //跑距离  M
+    BUFFER_EXCHANGE = 9,      //方向    时间
+  -->
+
+<ItemCfg>
+  <Item>
+    <Element Code="Gold" Type="1" Time="0" OnceEffect=""/>
+    <Element Code="Gold1" Type="1" Time="0" OnceEffect=""/>
+    <Element Code="Gold2" Type="1" Time="0" OnceEffect=""/>
+    <Element Code="Gold3" Type="1" Time="0" OnceEffect=""/>
+    <Element Code="Gold4" Type="1" Time="0" OnceEffect=""/>
+    <Element Code="Gold5" Type="1" Time="0" OnceEffect=""/>
+    <Element Code="Gold6" Type="1" Time="0" OnceEffect=""/>
+    <Element Code="Gold7" Type="1" Time="0" OnceEffect=""/>
+    <Element Code="Gold8" Type="1" Time="0" OnceEffect=""/>
+    <Element Code="Gold9" Type="1" Time="0" OnceEffect=""/>
+    <Element Code="GoldA" Type="1" Time="0" OnceEffect=""/>
+    <Element Code="GoldA_1" Type="1" Time="0" OnceEffect=""/>
+    <Element Code="GoldA1" Type="1" Time="0" OnceEffect=""/>
+    <Element Code="GoldA1_1" Type="1" Time="0" OnceEffect=""/>
+    <Element Code="GoldA1_2" Type="1" Time="0" OnceEffect=""/>
+    <Element Code="GoldB" Type="1" Time="0" OnceEffect=""/>
+    <Element Code="GoldB_1" Type="1" Time="0" OnceEffect=""/>
+    <Element Code="GoldB1" Type="1" Time="0" OnceEffect=""/>
+    <Element Code="GoldB1_1" Type="1" Time="0" OnceEffect=""/>
+    <Element Code="GoldB1_2" Type="1" Time="0" OnceEffect=""/>
+
+    <!--原地复活 <Buffer Type="4" Stength="0" Effect="ef_33" StartAudio="" EndAudio=""/>-->
+    <Element Code="Resurrection" Type="5" Time="30"  OnceEffect="">
+      
+    </Element>
+    <!--1000M开始-->
+    <Element Code="StartKM" Type="6" Time="-1" OnceEffect="">        
+      <Buffer Type="1" Stength="50" Effect="ef_35" StartAudio="FX_wind_running" EndAudio=""/>
+      <Buffer Type="4" Stength="0" Effect="" StartAudio="" EndAudio=""/>
+      <Buffer Type="8" Stength="1000" Effect="" StartAudio="" EndAudio=""/>
+    </Element>
+   
+    <!--磁铁-->
+    <Element Code="Magnet" Type="9" Time="10" OnceEffect="">        
+      <Buffer Type="3" Stength="3" Effect="magnet" StartAudio="FX_i11_magnet" EndAudio=""/>
+    </Element>
+    
+    <!--加速-->
+    <Element Code="Energy" Type="9" Time="10" OnceEffect="">        
+      <Buffer Type="1" Stength="50" Effect="accelerate" StartAudio="FX_Speed" EndAudio=""/>
+      <Buffer Type="5" Stength="0" Effect="" StartAudio="" EndAudio=""/>
+    </Element>
+     
+    <!--隐身-->
+    <Element Code="Shield" Type="9" Time="10" OnceEffect="">        
+      <Buffer Type="4" Stength="0" Effect="" StartAudio="" EndAudio=""/>
+    </Element> 
+ 
+  <TreasureBox>
+    <Item Code="GOLD1" PrimLow="15" PrimModdle="5" PrimHigh="0" AdvLow="0" AdvModdle="0" AdvHigh="0" Effect="double"/>
+    <Item Code="GOLD2" PrimLow="25" PrimModdle="5" PrimHigh="0" AdvLow="0" AdvModdle="0" AdvHigh="0" Effect="double"/>
+    <Item Code="GOLD3" PrimLow="10" PrimModdle="5" PrimHigh="0" AdvLow="0" AdvModdle="0" AdvHigh="0" Effect="double"/>
+    <Item Code="Magnet" PrimLow="8" PrimModdle="5" PrimHigh="0" AdvLow="0" AdvModdle="0" AdvHigh="0" Effect="ef_38_itme_i11"/>
+    <Item Code="Energy" PrimLow="8" PrimModdle="5" PrimHigh="0" AdvLow="0" AdvModdle="0" AdvHigh="0" Effect="ef_38_itme_i08"/>
+    <Item Code="Shield" PrimLow="8" PrimModdle="5" PrimHigh="0" AdvLow="0" AdvModdle="0" AdvHigh="0" Effect="ef_38_itme_i04"/>
+    <Item Code="Doubling" PrimLow="8" PrimModdle="5" PrimHigh="0" AdvLow="0" AdvModdle="0" AdvHigh="0" Effect="ef_38_itme_i01_01"/>
+    <Item Code="ShockWave" PrimLow="8" PrimModdle="5" PrimHigh="0" AdvLow="0" AdvModdle="0" AdvHigh="0" Effect="ef_38_itme_i12"/>
+    <Item Code="ghost" PrimLow="8" PrimModdle="5" PrimHigh="0" AdvLow="0" AdvModdle="0" AdvHigh="0" Effect="ef_38_itme_i01_01"/>
+    <Item Code="Exchanget" PrimLow="2" PrimModdle="2" PrimHigh="2" AdvLow="2" AdvModdle="2" AdvHigh="2" Effect="ef_38_itme_i10"/>
+  </TreasureBox>
+  </Item>
+</ItemCfg>

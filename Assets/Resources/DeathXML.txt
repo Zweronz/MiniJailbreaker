@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Death>
+  <type id="1" Animation="null_strike">
+    <Fraise Code="RB_G_6sbox"/>
+    <Fraise Code="RB_box01_02"/>
+    <Fraise Code="RB_box02_02"/>
+    <Fraise Code="RB_box03"/>
+    <Fraise Code="RB_G_2bbox"/>
+    <Fraise Code="RB_G_2sbox"/>
+    <Fraise Code="RB_G_3sbox1"/>
+    <Fraise Code="RB_G_3sbox2"/>
+    <Fraise Code="RB_N01"/>
+    <Fraise Code="RB_net01"/>
+    <Fraise Code="RB_O_box01"/>
+    <Fraise Code="RB_O_box02"/>
+    <Fraise Code="RB_vessel01"/>
+    <Fraise Code="RB_box02"/>
+    <Fraise Code="RB_carton01"/>
+    <Fraise Code="RB_jerrican01"/>
+    <Fraise Code="RB_machine01"/>
+    <Fraise Code="RB_woodbox01"/>
+    <Fraise Code="RB_woodbox02"/>
+    <Fraise Code="RB_woodbox03"/>
+    <Fraise Code="Dead"/>
+ </type>
+  <type id="2" Animation="null_electric">
+    <Fraise Code="ef_05"/>
+  </type>
+  <type id="3" Animation="null_ray">
+    <Fraise Code="ef_17"/>
+  </type>
+  <type id="4" Animation="null_frozen">
+    <Fraise Code="ef_24"/>
+  </type>
+  <type id="5" Animation="null_bite">
+    <Fraise Code="Zombie"/>
+  </type>
+</Death>

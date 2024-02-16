@@ -1,0 +1,8 @@
+public enum ENUM_INTERVAL_TYPE
+{
+	SAFETY = 0,
+	FARISE = 1,
+	ITEM = 2,
+	MONSTER = 3,
+	MAX_INTERVAL = 4
+}

@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1562484261845908}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1562484261845908
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4416432199152614}
+  - 82: {fileID: 82726736925880161}
+  - 114: {fileID: 114875975662157504}
+  m_Layer: 0
+  m_Name: mat_footstep_dirt01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4416432199152614
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1562484261845908}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!82 &82726736925880161
+AudioSource:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1562484261845908}
+  m_Enabled: 1
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.8
+  m_Pitch: 1.3
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 3
+  MaxDistance: 120
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0.025000002
+      value: 1
+      inSlope: -511.99915
+      outSlope: -511.99915
+      tangentMode: 0
+    - time: 0.02695265
+      value: 0.5
+      inSlope: -127.99979
+      outSlope: -127.99979
+      tangentMode: 0
+    - time: 0.030857947
+      value: 0.25
+      inSlope: -31.999947
+      outSlope: -31.999947
+      tangentMode: 0
+    - time: 0.038676288
+      value: 0.125
+      inSlope: -7.9999866
+      outSlope: -7.9999866
+      tangentMode: 0
+    - time: 0.054305248
+      value: 0.0625
+      inSlope: -1.9999967
+      outSlope: -1.9999967
+      tangentMode: 0
+    - time: 0.085570894
+      value: 0.03125
+      inSlope: -0.49999917
+      outSlope: -0.49999917
+      tangentMode: 0
+    - time: 0.14809445
+      value: 0.015625
+      inSlope: -0.12499979
+      outSlope: -0.12499979
+      tangentMode: 0
+    - time: 0.2695152
+      value: 0
+      inSlope: -0.031249948
+      outSlope: -0.031249948
+      tangentMode: 0
+    - time: 0.5232434
+      value: 0.00390625
+      inSlope: -0.007812487
+      outSlope: -0.007812487
+      tangentMode: 0
+    - time: 1
+      value: 0.002
+      inSlope: -0.0020479988
+      outSlope: -0.0020479988
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.7100373
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &114875975662157504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1562484261845908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3582d1c7d4196262b5c70e29e7c0f4f, type: 3}
+  m_Name:
+  isSfx: 1
+  audioClips:
+  - {fileID: 8300000, guid: 93543c203cdc2c94da1b496bb1b55ae0, type: 3}
+  - {fileID: 8300000, guid: 2f17ffc6b2c572d42bfd408ac2be0d2c, type: 3}
+  - {fileID: 8300000, guid: d81d6d57894e9a74798a7e40f65b9d07, type: 3}
+  probability: []
+  volumOffset: 0.15
+  pitchOffset: 0.15
+  loopMode: 0
+  cutoff: 0

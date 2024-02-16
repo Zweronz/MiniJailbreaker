@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Death>
+  <type id="1" Animation="strike01" DeathPic="death1">
+    <Fraise Code="car2" Animation="" isBody="true"/>
+    <Fraise Code="car2" Animation="" isBody="False"/>
+    <Fraise Code="oiltank01" Animation="" isBody="true"/>
+    <Fraise Code="oiltank01" Animation="" isBody="False"/>
+  </type>
+  <type id="2" Animation="strike02" DeathPic="death2">
+    <Fraise Code="rail01" Animation="" isBody="True"/>
+    <Fraise Code="rail01" Animation="" isBody="False"/>
+    <Fraise Code="oiltank02" Animation="" isBody="False"/>
+    <Fraise Code="oiltank02" Animation="" isBody="true"/>
+  </type>
+  <type id="3" Animation="strike03" DeathPic="death2">
+    <Fraise Code="moto02" Animation="" isBody="True"/>
+    <Fraise Code="moto02" Animation="" isBody="False"/>
+  </type>
+
+  <type id="4" Animation="strike04" DeathPic="death2">
+    <Fraise Code="car1" Animation="" isBody="True"/>
+    <Fraise Code="car1" Animation="" isBody="False"/>
+  </type>
+
+  <type id="5" Animation="Death05" DeathPic="death2">
+    <Fraise Code="drop" Animation="" isBody="True"/>
+    <Fraise Code="drop" Animation="" isBody="False"/>
+  </type>
+</Death>

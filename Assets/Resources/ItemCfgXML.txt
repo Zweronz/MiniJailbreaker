@@ -1,0 +1,138 @@
+<!-- ITEM_TYPE
+    ITEM_NONE = 0,            //无
+    ITEM_GOLD = 1,            //金币
+    ITEM_GOLD_POWER = 13,     //金币倍率
+    ITEM_SHOCK_WAVE = 15,     //冲击波
+    ITEM_SHIELD = 16,         //防护罩
+    ITEM_RESURRECTION = 17,   //复活
+    ITEM_START_FROM_KM = 18,  //从1000米处开始
+    ITEM_GHOST = 19,          //幽灵
+    ITEM_ENERGY = 20,         //能量
+    ITEM_MAGNET = 23,         //磁铁
+    ITEM_EXCHANGE = 25,       //方向
+    ITEM_TREASUREBOX = 30,       //宝箱
+  -->
+
+<!-- BUFFER_TYPE
+    BUFFER_NONE = 0,
+    BUFFER_SPEED = 1,         //速度    百分比
+    BUFFER_SHIELD = 2,        //防护    防护次数
+    BUFFER_MAGENT = 3,        //磁铁    磁铁吸引米数
+    BUFFER_INVINCIBILITY = 4, //无敌    null
+    BUFFER_LIGHT_WAY = 5
+    BUFFER_TRANSPARENT = 6,   //透明化  null
+    BUFFER_SHOCK_WAVE = 7,    //冲击波  距离
+    BUFFER_WORMHOLE = 8,      //跑距离  M
+    BUFFER_EXCHANGE = 9,      //方向    时间
+  -->
+
+<ItemCfg>
+  <Item>
+    <Element Code="Gold" Type="1" Time="0" />
+    <!--金币-->
+    <Element Code="Gold1" Type="1" Time="0" />
+    <!--金币-->
+    <Element Code="Gold2" Type="1" Time="0" />
+    <!--金币-->
+    <Element Code="Gold3" Type="1" Time="0" />
+    <!--金币-->
+    <Element Code="Gold4" Type="1" Time="0" />
+    <!--金币-->
+    <Element Code="Gold5" Type="1" Time="0" />
+    <!--金币-->
+    <Element Code="Gold6" Type="1" Time="0" />
+    <!--金币-->
+    <Element Code="Gold7" Type="1" Time="0" />
+    <!--金币-->
+    <Element Code="Gold8" Type="1" Time="0" />
+    <!--金币-->
+    <Element Code="Gold9" Type="1" Time="0" />
+    <!--金币-->
+    <Element Code="GoldA" Type="1" Time="0" />
+    <!--金币-->
+    <Element Code="GoldA_1" Type="1" Time="0" />
+    <!--金币-->
+    <Element Code="GoldA1" Type="1" Time="0" />
+    <!--金币-->
+    <Element Code="GoldA1_1" Type="1" Time="0" />
+    <!--金币-->
+    <Element Code="GoldA1_2" Type="1" Time="0" />
+    <!--金币-->
+    <Element Code="GoldB" Type="1" Time="0" />
+    <!--金币-->
+    <Element Code="GoldB_1" Type="1" Time="0" />
+    <!--金币-->
+    <Element Code="GoldB1" Type="1" Time="0" />
+    <!--金币-->
+    <Element Code="GoldB1_1" Type="1" Time="0" />
+    <!--金币-->
+    <Element Code="GoldB1_2" Type="1" Time="0" />
+    <!--金币-->
+    <!--金币倍率-->
+    <Element Code="Doubling" Type="13" Time="10" >
+      <Buffer Type="0" Stength="0" Effect="ef_26" StartAudio="FX_i01_DoubleGold" EndAudio=""/>
+    </Element>
+    <!--冲击波-->
+    <Element Code="ShockWave" Type="15" Time="10" >      
+      <Buffer Type="7" Stength="100" Effect="ef_25" StartAudio="" EndAudio=""/>
+    </Element>
+    <!--防护罩-->
+    <Element Code="Shield" Type="16" Time="3" >        
+      <Buffer Type="2" Stength="1" Effect="ef_33" StartAudio="" EndAudio=""/>
+    </Element>
+    <!--原地复活-->
+    <Element Code="Resurrection" Type="17" Time="3"  >
+      <Buffer Type="0" Stength="0" Effect="ef_34" StartAudio="" EndAudio=""/>
+      <Buffer Type="4" Stength="0" Effect="ef_33" StartAudio="" EndAudio=""/>
+    </Element>
+    <!--1000M开始-->
+    <Element Code="StartKM" Type="18" Time="-1">        
+      <Buffer Type="1" Stength="50" Effect="ef_35" StartAudio="FX_wind_running" EndAudio=""/>
+      <Buffer Type="4" Stength="0" Effect="" StartAudio="" EndAudio=""/>
+      <Buffer Type="8" Stength="1000" Effect="" StartAudio="" EndAudio=""/>
+    </Element>
+    <!--1000M开始-->
+    <Element Code="StartKM2" Type="18" Time="-1">        
+      <Buffer Type="1" Stength="50" Effect="ef_35" StartAudio="FX_wind_running" EndAudio=""/>
+      <Buffer Type="4" Stength="0" Effect="" StartAudio="" EndAudio=""/>
+      <Buffer Type="8" Stength="2500" Effect="" StartAudio="" EndAudio=""/>
+    </Element>
+    <!--幽灵化-->
+    <Element Code="ghost" Type="19" Time="7" >        
+      <Buffer Type="1" Stength="-50" Effect="ef_27" StartAudio="FX_wind_running" EndAudio=""/>
+      <Buffer Type="4" Stength="0" Effect="" StartAudio="" EndAudio=""/>
+      <Buffer Type="5" Stength="0" Effect="" StartAudio="" EndAudio=""/>
+      <Buffer Type="6" Stength="0" Effect="" StartAudio="FX_i07_ghost" EndAudio="FX_i07_ghostEnd"/>
+    </Element>
+    <!--能量化-->
+    <Element Code="Energy" Type="20" Time="6" >        
+      <Buffer Type="1" Stength="50" Effect="ef_35" StartAudio="FX_wind_running" EndAudio=""/>
+      <Buffer Type="4" Stength="0" Effect="" StartAudio="" EndAudio=""/>
+    </Element>
+    <!--磁铁-->
+    <Element Code="Magnet" Type="23" Time="10" >        
+      <Buffer Type="3" Stength="3" Effect="ef_29" StartAudio="FX_i11_magnet" EndAudio=""/>
+    </Element>
+    <!--反向-->
+    <Element Code="Exchange" Type="25" Time="10">
+      <Buffer Type="9" Stength="3" Effect="ef_37" StartAudio="FX_i11_magnet" EndAudio=""/>
+    </Element>
+  </Item>
+    <!--宝箱-->
+    <Element Code="ITEM_TREASUREBOX" Type="30" Time="10">
+      <Buffer Type="3" Stength="3" Effect="ef_39" StartAudio="FX_i11_magnet" EndAudio=""/>
+    </Element>
+    <!--1 10金 2 30金 3 100金-->
+  <TreasureBox>
+    <Item Code="GOLD1" PrimLow="15" PrimModdle="5" PrimHigh="0" AdvLow="0" AdvModdle="0" AdvHigh="0" Effect=""/>
+    <Item Code="GOLD2" PrimLow="25" PrimModdle="5" PrimHigh="0" AdvLow="0" AdvModdle="0" AdvHigh="0" Effect=""/>
+    <Item Code="GOLD3" PrimLow="10" PrimModdle="5" PrimHigh="0" AdvLow="0" AdvModdle="0" AdvHigh="0" Effect=""/>
+    <Item Code="Magnet" PrimLow="8" PrimModdle="5" PrimHigh="0" AdvLow="0" AdvModdle="0" AdvHigh="0" Effect=""/>
+    <Item Code="Energy" PrimLow="8" PrimModdle="5" PrimHigh="0" AdvLow="0" AdvModdle="0" AdvHigh="0" Effect=""/>
+    <Item Code="Shield" PrimLow="8" PrimModdle="5" PrimHigh="0" AdvLow="0" AdvModdle="0" AdvHigh="0" Effect=""/>
+    <Item Code="Doubling" PrimLow="8" PrimModdle="5" PrimHigh="0" AdvLow="0" AdvModdle="0" AdvHigh="0" Effect=""/>
+    <Item Code="ShockWave" PrimLow="8" PrimModdle="5" PrimHigh="0" AdvLow="0" AdvModdle="0" AdvHigh="0" Effect=""/>
+    <Item Code="ghost" PrimLow="8" PrimModdle="5" PrimHigh="0" AdvLow="0" AdvModdle="0" AdvHigh="0" Effect=""/>
+    <Item Code="Exchanget" PrimLow="2" PrimModdle="2" PrimHigh="2" AdvLow="2" AdvModdle="2" AdvHigh="2" Effect=""/>
+  </TreasureBox>
+</ItemCfg>

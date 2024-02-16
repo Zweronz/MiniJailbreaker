@@ -1,0 +1,11 @@
+<root>
+  <item type="Resurrection" inshop="1">
+	  <attr level="0" name="Second Chance" picname="Resurrection" price="500" dir="" strength="" length="" value="" info="Use it to revive\nwherever you died. " />
+  </item>
+  <item type="StartKM" inshop="1">
+	  <attr level="0" name="1000-meter Dash" picname="StartKM" price="500" dir="" strength="" length="" value="" info="Lets you dash forward\n1000 meters at the start\nof a game." />
+  </item>
+  <item type="StartKM2" inshop="1">
+	  <attr level="0" name="2500-meter Dash" picname="StartKM" price="1000" dir="" strength="" length="" value="" info="Lets you dash forward\n2500 meters at the start\nof a game." />
+  </item>
+</root>

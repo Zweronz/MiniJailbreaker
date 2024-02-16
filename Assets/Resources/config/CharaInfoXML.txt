@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Character>
+  <item id="1" Name="chara1" Lift="15" Gravity="42" Speed="24"                  
+        MoveEffectPath="ef_10" JumpEffectPath="" FireEffectPath=""
+        Run="run03"  Jump1="jump01" Jump2="jump02" Down="jump_end" JumpIdle="jump02" Left="run03" Right="run03" Fire="null_shoot"/>
+</Character>
