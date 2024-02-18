@@ -10,6 +10,7 @@ public class UIEventManager : MonoBehaviour, TUIHandler
 
 	public void Start()
 	{
+		Application.targetFrameRate = 240;
 		m_tui = TUI.Instance("TUI");
 		m_tui.SetHandler(this);
 		GameObject gameObject = GameObject.Find("TAudioController");
